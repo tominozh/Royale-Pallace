@@ -1,0 +1,24 @@
+<preference-headers
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.example.tomasaoibh.royaletabs.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="General"
+        android:summary="general ui preferences" />
+
+    <header
+        android:fragment="com.example.tomasaoibh.royaletabs.SettingsActivity$UserDetails"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="User Details"
+        android:summary="enter or edit your delivery address"/>
+
+    <header
+        android:fragment="com.example.tomasaoibh.royaletabs.SettingsActivity$AboutMeFragment"
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:title="About Author"
+        android:summary="contact author,get cool app"/>
+
+</preference-headers>

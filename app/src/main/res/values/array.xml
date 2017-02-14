@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="free_side">
+        <item name="Free Boiled Rice">Free Boiled Rice</item>
+        <item name="Free Fried Rice">Free Fried Rice</item>
+        s<item name="Free Chips">Free Chip</item>
+        <item name="Noodles - 2.50 extra">Noodles - 2.50 extra</item>
+    </string-array>
+</resources>

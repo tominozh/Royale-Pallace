@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="UI_SOUND"
+        android:summary="Enable UI Sounds"
+        android:title="Sound Effects" />
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="UI_VIBRATION"
+        android:summary="Enable UI Vibrations"
+        android:title="Vibrations"/>
+
+</PreferenceScreen>

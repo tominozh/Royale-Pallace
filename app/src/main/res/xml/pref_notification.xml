@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <PreferenceCategory
+       android:title="User Ordering Details">
+
+    <EditTextPreference
+        android:title="Name"
+        android:key="USER_NAME"
+        android:defaultValue="empty"
+        android:inputType="text"
+        android:summary="empty"/>
+
+
+    <EditTextPreference
+        android:title="Address"
+        android:key="USER_ADDRESS"
+        android:defaultValue="empty"
+        android:summary="empty"/>
+
+
+    <EditTextPreference
+        android:defaultValue="empty"
+        android:key="USER_TOWN"
+        android:title="Town"
+        android:summary="empty"/>
+
+    <EditTextPreference
+        android:title="Phone"
+        android:key="USER_PHONE"
+        android:defaultValue="empty"
+        android:summary="empty"/>
+
+       <EditTextPreference
+           android:title="email"
+           android:key="USER_EMAIL"
+           android:defaultValue="empty"
+           android:summary="empty"/>
+   </PreferenceCategory>
+</PreferenceScreen>
